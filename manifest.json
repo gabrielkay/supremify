@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Supremify",
+  "version": "0.2",
+  "permissions": [
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.5.1.min.js", "content.js"]
+    }
+  ]
+}
