@@ -7,7 +7,9 @@ var readyStateCheckInterval = setInterval(function() {
 
 function main() {
 
-    link=document.createElement('link');
+    var goog = /google/ig;
+    if (!document.URL.match(goog)){
+        link=document.createElement('link');
     link.href='https://fonts.googleapis.com/css?family=Nunito';
     link.rel='stylesheet';
 
@@ -21,6 +23,7 @@ function main() {
             $(this).replaceWith(u.replace(reg,'<span style="background-color:red;font-style:italic;color:white;font:Nunito !important;font-weight:800;"> Supreme </span>'));
         }
     });
+    }
 
 }
 
