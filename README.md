@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Supremify is a chrome extension that changes the word 'supreme' into the Supreme clothing brand logo on any website you visit
+Supremify is a chrome extension that changes the word 'supreme' into the Supreme clothing brand's logo on any website you visit
 
 ## How to install
 
